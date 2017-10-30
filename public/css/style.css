@@ -39,8 +39,8 @@
 }
 
 .node {
-    height: 100px;
-    width: 130px;
+    height: 110px;
+    width: 135px;
 
 }
 
@@ -76,5 +76,13 @@
     width: 80px;
 }
 
-
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+    position: fixed; /* <-- Look here */
+    top: 0;
+    width: 100%;
+    opacity: 0.9;
+    z-index: 1030;
+    background-color: white;
+}
 
