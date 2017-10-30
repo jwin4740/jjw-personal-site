@@ -1,0 +1,80 @@
+.thumb {
+    width: 50px;
+    height: 50px;
+}
+
+#skillIcons {
+    text-align: center;
+}
+
+.skill {
+    cursor: crosshair;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.python {
+    height: 67px;
+    width: 72px;
+
+}
+
+.htmllogo {
+    height: 80px;
+    width: 85px;
+
+}
+
+.csslogo {
+    height: 80px;
+    width: 62px;
+
+}
+
+.jslogo {
+    height: 85px;
+    width: 90px;
+
+}
+
+.node {
+    height: 100px;
+    width: 130px;
+
+}
+
+.d3 {
+    height: 60px;
+    width: 60px;
+}
+
+.mysql {
+    height: 80px;
+    width: 100px;
+}
+
+.asp {
+    margin-top: 20px;
+    height: 100px;
+    width: 120px;
+}
+
+.mongo {
+    height: 100px;
+    width: 100px;
+
+}
+
+.linode {
+    height: 80px;
+    width: 230px;
+}
+
+.csharp {
+    height: 80px;
+    width: 80px;
+}
+
+
+
