@@ -1,3 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+.totusTuus {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+main {
+    background-image: url('../img/chicago.jpg');
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.headline {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 25%;
+    font-weight: bolder;
+
+}
+
+#headerMain {
+    font-size: 70px;
+    margin-bottom: 0px;
+
+}
+
+#headerSub {
+    font-size: 25px;
+
+}
+
+.scrollArrow {
+    color: white;
+    postition: absolute;
+    top: 93%;
+    left: 50%;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+#skillSet {
+    height: 60vh;
+}
+
+#projectSect {
+    height: 30vh;
+    background-color: #9b9b9b;
+}
+
+#profileSect {
+    height: 45vh;
+}
+
 .thumb {
     width: 50px;
     height: 50px;
@@ -81,8 +139,57 @@
     position: fixed; /* <-- Look here */
     top: 0;
     width: 100%;
-    opacity: 0.9;
+    opacity: 0.5;
     z-index: 1030;
     background-color: white;
 }
 
+.profilePic {
+    height: 150px;
+    /*width: 200px;*/
+}
+
+#arrow {
+    position: relative;
+    top: 75%;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+}
+
+.hrRule {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#projectContainer {
+    text-align: center;
+    height: 52vh;
+    padding: 15px;
+
+}
+
+.projectBox {
+    cursor: pointer;
+    display: inline-block;
+    height: 54%;
+    width: 22%;
+    border: solid 5px blue;
+    border-radius: 5px;
+    margin: 45px;
+
+}
+
+.proPic {
+    height: 100%;
+    width: 100%;
+}
+
+.picCaption {
+    font-size: 18px;
+    font-weight: bolder;
+}
