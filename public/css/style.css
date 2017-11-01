@@ -145,8 +145,16 @@ main {
 }
 
 .profilePic {
-    height: 150px;
+    height: 200px;
+    float: left;
+    margin: 0px 15px 0px 0px;
     /*width: 200px;*/
+}
+
+.aboutMeText{
+   text-align: left;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 #arrow {
@@ -165,7 +173,9 @@ main {
     margin: 1em 0;
     padding: 0;
 }
-
+#projects{
+    clear: both;
+}
 #projectContainer {
     text-align: center;
     height: 52vh;
